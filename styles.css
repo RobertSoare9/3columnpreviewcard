@@ -8,7 +8,6 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-family: 'Lexen Deca', cursive;
 }
 main{
     display: flex;
@@ -17,19 +16,22 @@ main{
 }
 .card1{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
 }
 .card2{
     background-color: hsl(184, 100%, 22%);
 }
 .card3{
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
 }
 button{
-    background-color: transparent;
-    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
     border: 2px solid white;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
+    margin-top: 3rem;
 }
 h1{
     color:hsl(0, 0%, 95%);
@@ -37,9 +39,15 @@ h1{
 }
 div{
     padding: 30px 30px 30px 30px;
-    width: 300px;
-    height: 400px;
+    width: 13rem;
 }
 button:hover{
     cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    transition: 0.25s;
+}
+p{
+    margin: 1rem 0 1rem 0;
+    font-family: 'Lexend Deca', sans-serif;
 }
