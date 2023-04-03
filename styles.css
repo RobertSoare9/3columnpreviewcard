@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    font-family: 'Lexen Deca', cursive;
 }
 main{
     display: flex;
@@ -25,16 +26,19 @@ main{
 }
 button{
     background-color: transparent;
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(0, 0%, 95%);
     border: 2px solid white;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
 }
 h1{
-    color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
 }
 div{
     padding: 30px 30px 30px 30px;
+    width: 300px;
+    height: 400px;
 }
 button:hover{
     cursor: pointer;
