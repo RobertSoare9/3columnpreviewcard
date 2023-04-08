@@ -26,12 +26,12 @@ main{
     border-radius: 0px 5px 5px 0px;
 }
 button{
+    color: hsl(184, 100%, 22%) ;
     background-color: hsl(0, 0%, 95%);
-    color:hsl(184, 100%, 22%);
     border: 2px solid white;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
 }
 h1{
     color:hsl(0, 0%, 95%);
@@ -50,4 +50,14 @@ button:hover{
 p{
     margin: 1rem 0 1rem 0;
     font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+@media only screen and (max-width:375px)
+{
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+    }
 }
